@@ -1,0 +1,48 @@
+/* Write your CSS code here */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0px 4px 16px 0px;
+}
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.first-container {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  width: 45%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* border: 2px red solid; */
+}
+.second-container {
+  width: 40%;
+  height: 40%;
+}
+.heading {
+  color: #000000;
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 45px;
+}
+.para {
+  color: #64748b;
+  font-family: 'roboto';
+  font-weight: 400;
+  font-size: 25px;
+}
+.home-button {
+  color: white;
+  background-color: blue;
+  width: 30%;
+  padding: 3%;
+  text-align: center;
+  border-radius: 10px;
+}

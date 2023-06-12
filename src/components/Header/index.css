@@ -1,0 +1,46 @@
+/* Write your CSS code here */
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 10%;
+  /* border: 1px red solid; */
+}
+.header-img {
+  height: 8%;
+  width: 25%;
+}
+.options-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+  height: 15%;
+  /* border: 2px green solid; */
+}
+.options {
+  color: #64748b;
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 20px;
+}
+.symbol {
+  display: flex;
+  flex-direction: row;
+}
+.Home {
+  height: 25px;
+  width: 30px;
+}
+.logout-button {
+  color: white;
+  background-color: blue;
+  font-family: 'roboto';
+  font-weight: 500;
+  width: 10%;
+  border-radius: 8px;
+  border-width: 0px;
+}
